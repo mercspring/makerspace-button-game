@@ -3,6 +3,18 @@ document.querySelectorAll('button').forEach(function (elm) {
     elm.onclick = changeColor;
 })
 
+document.querySelector(".start").onclick = function(){
+    if(this.innerHTML === "Start!"){
+        this.innerHTML = "Stop!"
+        this.style.color = "red"
+        this.style.backgroundColor = "black"
+    } else {
+        this.innerHTML = "Start!"
+        this.style.color = "green"
+        this.style.backgroundColor = "white"
+    }
+}
+
 
 function changeColor() {
     console.log(this.classList.value, this.style.backgroundColor)

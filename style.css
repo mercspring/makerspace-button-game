@@ -11,3 +11,9 @@ Button{
     background-color: white;
     margin: 1em;
 }
+
+.start{
+    width: 50vw;
+    height: 20vw;
+    font-size: 4em;
+}
