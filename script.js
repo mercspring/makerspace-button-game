@@ -4,12 +4,12 @@ document.querySelectorAll('button').forEach(function (elm) {
 })
 
 document.querySelector(".start").onclick = function(){
-    if(this.innerHTML === "Start!"){
-        this.innerHTML = "Stop!"
+    if(this.innerHTML === "START"){
+        this.innerHTML = "STOP"
         this.style.color = "red"
         this.style.backgroundColor = "black"
     } else {
-        this.innerHTML = "Start!"
+      this.innerHTML = "START"
         this.style.color = "green"
         this.style.backgroundColor = "white"
     }
